@@ -1,0 +1,1 @@
+ls -x1AFR > .\output\testdata.txt

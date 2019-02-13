@@ -15,7 +15,7 @@ use std::{
     },
 };
 
-const TESTFILE : &str = ".\\output\\data.txt";
+const TESTFILE : &str = ".\\output\\testdata.txt";
 const IGNORESTRING : &str = " -\n";
 
 pub fn run(args: Vec<String>) -> Result<(), Box<Error>> {
