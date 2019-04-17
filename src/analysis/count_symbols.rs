@@ -15,10 +15,10 @@ use std::{
     },
 };
 
-const TESTFILE : &str = ".\\output\\testdata.txt";
+const TESTFILE : &str = ".\\output\\data.txt";
 const IGNORESTRING : &str = " -\n";
 
-pub fn run(args: Vec<String>) -> Result<(), Box<Error>> {
+pub fn print_follow_sets(args: Vec<String>) -> Result<(), Box<dyn Error>> {
     let filepath;
     let ignore;
     let mut args = args.iter();
